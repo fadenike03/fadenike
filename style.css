@@ -1,0 +1,39 @@
+main {
+    display:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: monospace;
+}
+
+h1 {
+color: black;
+text-align: center;
+text-decoration: underline;
+
+}
+
+p {
+color: white;
+background-color: black;
+padding: 10px;
+
+}
+.template {
+display: flex;
+justify-content: center;
+flex-direction: column;
+min-height: 50vh;
+width: 30vw;
+background-color: #ff9800;
+border-radius: 20px;
+padding: 10px;
+
+}
+p.Fullname span, p.E-mailAddress span, p.SlackUsername span, p.Tracks span, p.RegisteredCourses span {
+    color:  #ff9800;
+
+}
+p.Fullname {
+    text-align: left;
+}
